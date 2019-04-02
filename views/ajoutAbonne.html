@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Inscription</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <script src="main.js"></script>
+    
+    <div>
+    <h2>Informations personnelles</h2>
+    
+    <div class="alert">
+        <form method="POST" action="ajoutAbonne.php">
+    <table>
+        <tr><td>CIN</td><td><input type="number" name="cin" placeholder="CIN" required></td></tr>
+        <tr><td>Nom</td><td><input type="text" name="nom" placeholder="Nom" required></td></tr>
+        <tr><td>Prénom</td><td><input type="text" name="prenom" placeholder="Prénom" required></td></tr>
+        <tr><td>Sexe</td><td><label>Homme</label><input type="radio" name="sexe" value="male" required><label>Femme</label><input type="radio" name="sexe" value="femelle" required></td></tr>
+        <tr><td>Date de naissance</td><td><input type="date" name="datenaissance" required></td></tr>
+        <tr><td>Longueur</td><td><input type="number" name="longueur" placeholder="Longueur" required></td></tr>
+        <tr><td>Poids</td><td><input type="number" name="poids" placeholder="Poids" required></td></tr>
+        <tr><td>Numéro de téléphone</td><td><input type="number" name="numtel" placeholder="Num téléphone" required></td></tr>
+        <tr><td></td><td><input class="form-element" type="submit" name="ajouter" value="ajouter"></td></tr>
+    </table>
+        </form>
+    </div>
+    </div>
+</body>
+    
+</html>

@@ -1,0 +1,11 @@
+*
+{
+    font-family: Bahnschrift;
+}
+
+.alert
+{
+    background-color: darkgoldenrod;
+    width : 50%;
+    color: white;
+}
